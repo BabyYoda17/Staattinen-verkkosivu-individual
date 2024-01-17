@@ -78,37 +78,46 @@ footer {
 
 /* New styles for main-header and content-article */
 
-#main-header {
-    background-color: #ffd700; /* Set your desired background color */
-    text-align: center;
-    padding: 20px;
+
+
+/* Styles for body element */
+body {
+    background-color: #f0f0f0;
+    font-family: 'Arial', sans-serif;
+    margin: 20px;
 }
 
-#main-header h1 {
-    margin: 0;
-    font-size: 32px;
-}
-
-#main-header p {
-    font-size: 16px;
-    margin-top: 10px;
-}
-
-.content-article {
-    background-color: #f9f9f9;
-    border: 1px solid #ddd;
-    padding: 20px;
-    margin-bottom: 20px;
-}
-
-.content-article h2 {
+/* Styles for h1 headings */
+h1 {
+    font-family: 'Helvetica', sans-serif;
     color: #333;
-    font-size: 24px;
-    margin-bottom: 10px;
+    margin: 10px 0;
 }
 
-.content-article p {
-    color: #666;
-    font-size: 16px;
-    line-height: 1.5;
+/* Styles for links */
+a {
+    color: #00f;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #f00;
+}
+
+a:visited {
+    color: #f00;
+}
+
+/* Styles for images */
+img {
+    max-width: 100%;
+    border: 1px solid #ccc;
+}
+
+/* Styles for footer section */
+footer {
+    background-color: black;
+    color: white;
+    padding: 20px;
+    text-align: center;
 }
